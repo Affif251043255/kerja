@@ -1,55 +1,12 @@
 ---
-title-slide: false
-bibliography: references.bib
-csl: vancouver.csl
-citeproc: true
-theme: serif
-background-color: "#ffffff"
-transition: slide
-navigationMode: linear
-hash: true
----
 
-:::: {.columns}
-::: {.column width="50%"}
-
-## Sample slides
-#### Affif251043255
-#### Universiti Malaysia Perlis
-#### [placeholder@email.com](mailto:placeholder@email.com)
-
-<!-- __AUDIO_INTRO_DO_NOT_TOUCH__ -->
-
-:::
-
-::: {.column width="50%"}
-![](media/pics/logo1.png)
-:::
-
-::::
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Slide one
-**Key Concepts:**
-- Energy conservation per @carnot1824.
-- $\Delta U = Q - W$
-:::
-
-::: {.column width="50%"}
-![](media/pics/sample.png)
-:::
-::::
-
----
 
 <span class="slide-title" data-title="My Hidden Slide Name"></span>
 
 ![](media/pics/wide.jpeg)
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -68,6 +25,7 @@ The work done $W$ is positive when the system expands against an external pressu
 ::::
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -92,6 +50,7 @@ The work done $W$ is positive when the system expands against an external pressu
 
 ---
 
+
 :::: {.columns}
 ::: {.column width="50%"}
 ### Machine 1: Part Resistance Analysis
@@ -105,6 +64,7 @@ Machine 1 operating at 303 K and 100 kPa. The Upper Specification Limit (USL) fo
 ::::
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -120,6 +80,7 @@ Machine 2 operating at 338 K and 200 kPa. The Upper Specification Limit (USL) fo
 
 ---
 
+
 :::: {.columns}
 ::: {.column width="50%"}
 ### Machine 3: Part Resistance Analysis
@@ -134,6 +95,7 @@ Machine 3 operating at 373 K and 300 kPa. The Upper Specification Limit (USL) fo
 
 ---
 
+
 ## Conclusion & Thank You
 
 Based on the analysis of Part Resistance across different machine operating conditions, we can draw insights into process stability and adherence to specifications. It's evident how changes in temperature and pressure affect the output quality. 
@@ -141,6 +103,7 @@ Based on the analysis of Part Resistance across different machine operating cond
 Thank you for your attention!
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}

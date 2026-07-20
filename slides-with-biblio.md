@@ -1,94 +1,12 @@
 ---
-title-slide: false
-bibliography: references.bib
-csl: vancouver.csl
-citeproc: true
-theme: serif
-background-color: "#ffffff"
-transition: slide
-navigationMode: linear
-hash: true
----
 
-:::: {.columns}
-::: {.column width="50%"}
-
-## Sample slides
-#### Affif251043255
-#### Universiti Malaysia Perlis
-#### [placeholder@email.com](mailto:placeholder@email.com)
-
-<audio id="bg-music" src="media/audio/sb.m4a" loop></audio>
-
-<div id="audio-credit"
-     style="position: absolute; bottom: 40px; right: 20px; font-size: 0.6em; opacity: 0.6;">
-  Music: “Adrift” by Scott Buckley (CC BY 4.0)
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const audio = document.getElementById('bg-music');
-    const credit = document.getElementById('audio-credit');
-
-    // hide credit by default
-    credit.style.display = 'none';
-
-    const test = new Audio('media/audio/bgm.mp3');
-
-    test.addEventListener('canplaythrough', () => {
-      // bgm.mp3 exists → use it, keep credit hidden
-      audio.src = 'media/audio/bgm.mp3';
-    }, { once: true });
-
-    test.addEventListener('error', () => {
-      // bgm.mp3 missing → sb.m4a will play → show credit
-      credit.style.display = 'block';
-    }, { once: true });
-
-    document.addEventListener('click', () => {
-      if (Reveal.getIndices().h === 0) {
-        audio.volume = 0.5;
-        audio.play();
-      }
-    }, { once: true });
-
-    Reveal.on('slidechanged', (event) => {
-      if (event.indexh > 0) { audio.pause(); }
-      else { audio.play(); }
-    });
-  });
-</script>
-
-:::
-
-::: {.column width="50%"}
-![](media/pics/logo1.png)
-:::
-
-::::
-
----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Slide one
-**Key Concepts:**
-- Energy conservation per @carnot1824.
-- $\Delta U = Q - W$
-:::
-
-::: {.column width="50%"}
-![](media/pics/sample.png)
-:::
-::::
-
----
 
 <span class="slide-title" data-title="My Hidden Slide Name"></span>
 
 ![](media/pics/wide.jpeg)
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -107,6 +25,7 @@ The work done $W$ is positive when the system expands against an external pressu
 ::::
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -131,6 +50,7 @@ The work done $W$ is positive when the system expands against an external pressu
 
 ---
 
+
 :::: {.columns}
 ::: {.column width="50%"}
 ### Machine 1: Part Resistance Analysis
@@ -144,6 +64,7 @@ Machine 1 operating at 303 K and 100 kPa. The Upper Specification Limit (USL) fo
 ::::
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -159,6 +80,7 @@ Machine 2 operating at 338 K and 200 kPa. The Upper Specification Limit (USL) fo
 
 ---
 
+
 :::: {.columns}
 ::: {.column width="50%"}
 ### Machine 3: Part Resistance Analysis
@@ -173,6 +95,7 @@ Machine 3 operating at 373 K and 300 kPa. The Upper Specification Limit (USL) fo
 
 ---
 
+
 ## Conclusion & Thank You
 
 Based on the analysis of Part Resistance across different machine operating conditions, we can draw insights into process stability and adherence to specifications. It's evident how changes in temperature and pressure affect the output quality. 
@@ -180,6 +103,7 @@ Based on the analysis of Part Resistance across different machine operating cond
 Thank you for your attention!
 
 ---
+
 
 :::: {.columns}
 ::: {.column width="50%"}
