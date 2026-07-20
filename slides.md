@@ -213,3 +213,39 @@ Machine 3 operating at 373 K and 300 kPa. The Upper Specification Limit (USL) fo
 Based on the analysis of Part Resistance across different machine operating conditions, we can draw insights into process stability and adherence to specifications. It's evident how changes in temperature and pressure affect the output quality. 
 
 Thank you for your attention!
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Resistance Across All Machines
+
+This box plot illustrates the distribution of Part Resistance for Machine 1, Machine 2, and Machine 3, allowing for a direct visual comparison against the Upper Specification Limit (USL) of 10 Ohms. It highlights differences in resistance levels and variability under their respective operating conditions. The lower the resistance, the better.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/plot_all_machines_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+## Conclusion & Thank You
+
+Based on the analysis of Part Resistance across different machine operating conditions, we can draw insights into process stability and adherence to specifications. It's evident how changes in temperature and pressure affect the output quality. 
+
+Thank you for your attention!
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Resistance Across All Machines
+
+This box plot illustrates the distribution of Part Resistance for Machine 1, Machine 2, and Machine 3, allowing for a direct visual comparison against the Upper Specification Limit (USL) of 10 Ohms. It highlights differences in resistance levels and variability under their respective operating conditions. The lower the resistance, the better.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/plot_all_machines_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
