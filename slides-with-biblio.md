@@ -120,7 +120,19 @@ _A smaller Pr(>F) value (typically < 0.05) indicates a statistically significant
 :::
 
 ::: {.column width="50%"}
-<!-- Placeholder for ANOVA output if it can be dynamically injected, otherwise user refers to console -->
+```
+# Paste the full ANOVA table output here, e.g.:
+# Response: PartResistance
+#                           Df Sum Sq Mean Sq F value    Pr(>F)
+# Machine                    2  0.647  0.3235  0.3547 0.70138
+# Temperature                1  0.003  0.0029  0.0031 0.95537
+# Pressure                   1  0.003  0.0029  0.0031 0.95537
+# Machine:Temperature        2  0.138  0.0691  0.0758 0.92716
+# Machine:Pressure           2  0.006  0.0032  0.0035 0.99646
+# Temperature:Pressure       1  0.141  0.1413  0.1550 0.69429
+# Machine:Temperature:Pressure 2  0.088  0.0441  0.0484 0.95270
+# Residuals                177 161.424  0.9120
+```
 
 _Please refer to the output of the preceding R cell for the full ANOVA table and specific Pr(>F) values._
 :::
