@@ -560,17 +560,165 @@
 
 <section class="slide level1">
 
+<div class="columns">
+<div class="column" style="width:50%;">
+<h2 id="sample-slides">Sample slides</h2>
+<h4 id="affif251043255">Affif251043255</h4>
+<h4 id="universiti-malaysia-perlis">Universiti Malaysia Perlis</h4>
+<h4 id="your_emailexample.com"><a
+href="mailto:your_email@example.com">your_email@example.com</a></h4>
+<!-- __AUDIO_INTRO_DO_NOT_TOUCH__ -->
+</div><div class="column" style="width:50%;">
+<p><img data-src="media/pics/logo1.png" /></p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="slide-one">Slide one</h3>
+<p><strong>Key Concepts:</strong> - Energy conservation per <span
+class="citation" data-cites="carnot1824">(1)</span>. - <span
+class="math inline">\(\Delta U = Q - W\)</span></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="media/pics/sample.png" /></p>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
 <p><span class="slide-title"
 data-title="My Hidden Slide Name"></span></p>
 <p><img data-src="media/pics/wide.jpeg" /></p>
 </section>
 <section class="slide level1">
 
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="the-master-equation">The Master Equation</h3>
+<p>The fundamental relation of thermodynamics:</p>
+<p><span class="math display">\[\Delta U = Q - W\]</span></p>
+<p>The work done <span class="math inline">\(W\)</span> is positive when
+the system expands against an external pressure.</p>
+</div><div class="column" style="width:50%;">
+<video data-src="media/videos/sample.mp4" data-autoplay loop muted width="100%">
+</video>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="visualizing-the-gas-law">Visualizing the Gas Law</h3>
+<p><strong>Interactive Model:</strong></p>
+<ul>
+<li>P, V, and T relationships.</li>
+<li>Use the slider to adjust pressure.</li>
+<li>Observe the phase boundary.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/sample.html" width="100%" height="500px" style="border:none;" scrolling="no">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="machine-1-part-resistance-analysis">Machine 1: Part Resistance
+Analysis</h3>
+<p>Machine 1 operating at 303 K and 100 kPa. The Upper Specification
+Limit (USL) for Part Resistance is 10 Ohms. The lower the resistance,
+the better. This box plot visualizes the distribution of part resistance
+under these conditions.</p>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/plot_m1.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="machine-2-part-resistance-analysis">Machine 2: Part Resistance
+Analysis</h3>
+<p>Machine 2 operating at 338 K and 200 kPa. The Upper Specification
+Limit (USL) for Part Resistance is 10 Ohms. The lower the resistance,
+the better. This box plot visualizes the distribution of part resistance
+under these conditions.</p>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/plot_m2.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="machine-3-part-resistance-analysis">Machine 3: Part Resistance
+Analysis</h3>
+<p>Machine 3 operating at 373 K and 300 kPa. The Upper Specification
+Limit (USL) for Part Resistance is 10 Ohms. The lower the resistance,
+the better. This box plot visualizes the distribution of part resistance
+under these conditions.</p>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/plot_m3.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<h2 id="conclusion-thank-you">Conclusion &amp; Thank You</h2>
+<p>Based on the analysis of Part Resistance across different machine
+operating conditions, we can draw insights into process stability and
+adherence to specifications. It’s evident how changes in temperature and
+pressure affect the output quality.</p>
+<p>Thank you for your attention!</p>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3
+id="statistical-significance-of-factors-on-part-resistance">Statistical
+Significance of Factors on Part Resistance</h3>
+<p>To understand how different factors affect Part Resistance, an
+Analysis of Variance (ANOVA) was performed with
+<code>PartResistance</code> as the dependent variable and
+<code>Machine</code>, <code>Temperature</code>, <code>Pressure</code>,
+and their interactions as independent variables. The goal is to identify
+which factors or interactions have a statistically significant impact on
+the resistance.</p>
+<p>Key values to observe from the ANOVA table (from the previous R cell
+output) are: - <strong>Resistance, Pr(&gt;F) for Pressure</strong> -
+<strong>Resistance, Pr(&gt;F) for Temperature</strong> -
+<strong>Resistance, Pr(&gt;F) for Pressure:Temperature
+(Interaction)</strong></p>
+<p><em>A smaller Pr(&gt;F) value (typically &lt; 0.05) indicates a
+statistically significant effect. Remember, for Part Resistance, lower
+values are generally better, and there is no Lower Specification Limit
+(LSL) defined beyond this preference.</em></p>
+</div><div class="column" style="width:50%;">
+<!-- Placeholder for ANOVA output if it can be dynamically injected, otherwise user refers to console -->
+<p><em>Please refer to the output of the preceding R cell for the full
+ANOVA table and specific Pr(&gt;F) values.</em></p>
+</div>
+</div>
 </section>
 <section id="bibliography" class="slide level1">
 <h1>Bibliography</h1>
-<div id="refs" role="list">
-
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-carnot1824" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sadi
+Carnot. Reflections on the motive power of fire. Annals of Physics.
+1824;1:1–100.</div>
+</div>
 </div>
 </section>
     </div>
@@ -648,7 +796,7 @@ data-title="My Hidden Slide Name"></span></p>
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'default',
+        navigationMode: 'linear',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
