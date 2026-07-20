@@ -813,6 +813,44 @@ better.</p>
 </div>
 </div>
 </section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="comparative-analysis-data-limitations">Comparative Analysis
+&amp; Data Limitations</h3>
+<p>We aimed to compare Part Resistance across Machine 1, Machine 2, and
+Machine 3 to understand their responses to changes in Pressure and
+Temperature, and to identify significant factors via ANOVA.</p>
+<p><strong>Current Data Limitation:</strong> The loaded dataset
+(<code>X002..3.</code>) primarily contains data only for <strong>Machine
+1</strong> (at 303 K and 100 kPa). This means that:</p>
+<ol type="1">
+<li><strong>Comparative Box Plots:</strong> The ‘Comparative Part
+Resistance Across Machines’ plot currently visualizes data only from
+Machine 1, as data for Machines 2 and 3 are not present in the
+dataset.</li>
+<li><strong>ANOVA for Interactions:</strong> A meaningful Analysis of
+Variance (ANOVA) to assess the impact of <code>Machine</code>,
+<code>Temperature</code>, <code>Pressure</code>, and their interactions
+cannot be fully performed without data from all machines operating under
+their specified conditions. The ANOVA performed previously would
+predominantly reflect variation within Machine 1’s data or indicate an
+inability to calculate for other levels.</li>
+</ol>
+<p>To conduct a comprehensive comparative analysis and a robust ANOVA,
+the full dataset including <code>PartResistance</code> measurements for
+Machine 2 (338 K, 200 kPa) and Machine 3 (373 K, 300 kPa) would be
+required.</p>
+</div><div class="column" style="width:50%;">
+<!-- A visual placeholder or a summary of findings specific to Machine 1 could go here -->
+<p><em>Please ensure the <code>data/</code> folder contains CSV files
+with data for Machine 2 and Machine 3 operating under their respective
+conditions (as described in the prompt) to enable a full comparative
+analysis.</em></p>
+</div>
+</div>
+</section>
 <section id="bibliography" class="slide level1">
 <h1>Bibliography</h1>
 <div id="refs" class="references csl-bib-body" role="list">

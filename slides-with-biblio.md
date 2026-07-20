@@ -251,5 +251,28 @@ This box plot illustrates the distribution of Part Resistance for Machine 1, Mac
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Comparative Analysis & Data Limitations
+
+We aimed to compare Part Resistance across Machine 1, Machine 2, and Machine 3 to understand their responses to changes in Pressure and Temperature, and to identify significant factors via ANOVA. 
+
+**Current Data Limitation:** The loaded dataset (`X002..3.`) primarily contains data only for **Machine 1** (at 303 K and 100 kPa). This means that:
+
+1.  **Comparative Box Plots:** The 'Comparative Part Resistance Across Machines' plot currently visualizes data only from Machine 1, as data for Machines 2 and 3 are not present in the dataset.
+2.  **ANOVA for Interactions:** A meaningful Analysis of Variance (ANOVA) to assess the impact of `Machine`, `Temperature`, `Pressure`, and their interactions cannot be fully performed without data from all machines operating under their specified conditions. The ANOVA performed previously would predominantly reflect variation within Machine 1's data or indicate an inability to calculate for other levels.
+
+To conduct a comprehensive comparative analysis and a robust ANOVA, the full dataset including `PartResistance` measurements for Machine 2 (338 K, 200 kPa) and Machine 3 (373 K, 300 kPa) would be required. 
+:::
+
+::: {.column width="50%"}
+<!-- A visual placeholder or a summary of findings specific to Machine 1 could go here -->
+
+_Please ensure the `data/` folder contains CSV files with data for Machine 2 and Machine 3 operating under their respective conditions (as described in the prompt) to enable a full comparative analysis._
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
