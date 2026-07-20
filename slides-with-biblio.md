@@ -165,5 +165,55 @@ _Please refer to the output of the preceding R cell for the full ANOVA table and
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 1: Part Resistance Analysis
+
+Machine 1 operating at 303 K and 100 kPa. The Upper Specification Limit (USL) for Part Resistance is 10 Ohms. The lower the resistance, the better. This box plot visualizes the distribution of part resistance under these conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/plot_m1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 2: Part Resistance Analysis
+
+Machine 2 operating at 338 K and 200 kPa. The Upper Specification Limit (USL) for Part Resistance is 10 Ohms. The lower the resistance, the better. This box plot visualizes the distribution of part resistance under these conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/plot_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine 3: Part Resistance Analysis
+
+Machine 3 operating at 373 K and 300 kPa. The Upper Specification Limit (USL) for Part Resistance is 10 Ohms. The lower the resistance, the better. This box plot visualizes the distribution of part resistance under these conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/plot_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+## Conclusion & Thank You
+
+Based on the analysis of Part Resistance across different machine operating conditions, we can draw insights into process stability and adherence to specifications. It's evident how changes in temperature and pressure affect the output quality. 
+
+Thank you for your attention!
+
+---
 # Bibliography
 <div id="refs"></div>
