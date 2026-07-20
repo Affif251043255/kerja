@@ -719,6 +719,36 @@ adherence to specifications. It’s evident how changes in temperature and
 pressure affect the output quality.</p>
 <p>Thank you for your attention!</p>
 </section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3
+id="statistical-significance-of-factors-on-part-resistance">Statistical
+Significance of Factors on Part Resistance</h3>
+<p>To understand how different factors affect Part Resistance, an
+Analysis of Variance (ANOVA) was performed with
+<code>PartResistance</code> as the dependent variable and
+<code>Machine</code>, <code>Temperature</code>, <code>Pressure</code>,
+and their interactions as independent variables. The goal is to identify
+which factors or interactions have a statistically significant impact on
+the resistance.</p>
+<p>Key values to observe from the ANOVA table (from the previous R cell
+output) are: - <strong>Resistance, Pr(&gt;F) for Pressure</strong> -
+<strong>Resistance, Pr(&gt;F) for Temperature</strong> -
+<strong>Resistance, Pr(&gt;F) for Pressure:Temperature
+(Interaction)</strong></p>
+<p><em>A smaller Pr(&gt;F) value (typically &lt; 0.05) indicates a
+statistically significant effect. Remember, for Part Resistance, lower
+values are generally better, and there is no Lower Specification Limit
+(LSL) defined beyond this preference.</em></p>
+</div><div class="column" style="width:50%;">
+<!-- Placeholder for ANOVA output if it can be dynamically injected, otherwise user refers to console -->
+<p><em>Please refer to the output of the preceding R cell for the full
+ANOVA table and specific Pr(&gt;F) values.</em></p>
+</div>
+</div>
+</section>
 <section id="bibliography" class="slide level1">
 <h1>Bibliography</h1>
 <div id="refs" class="references csl-bib-body" role="list">

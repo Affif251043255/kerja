@@ -139,3 +139,26 @@ Machine 3 operating at 373 K and 300 kPa. The Upper Specification Limit (USL) fo
 Based on the analysis of Part Resistance across different machine operating conditions, we can draw insights into process stability and adherence to specifications. It's evident how changes in temperature and pressure affect the output quality. 
 
 Thank you for your attention!
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Statistical Significance of Factors on Part Resistance
+
+To understand how different factors affect Part Resistance, an Analysis of Variance (ANOVA) was performed with `PartResistance` as the dependent variable and `Machine`, `Temperature`, `Pressure`, and their interactions as independent variables. The goal is to identify which factors or interactions have a statistically significant impact on the resistance.
+
+Key values to observe from the ANOVA table (from the previous R cell output) are:
+- **Resistance, Pr(>F) for Pressure**
+- **Resistance, Pr(>F) for Temperature**
+- **Resistance, Pr(>F) for Pressure:Temperature (Interaction)**
+
+_A smaller Pr(>F) value (typically < 0.05) indicates a statistically significant effect. Remember, for Part Resistance, lower values are generally better, and there is no Lower Specification Limit (LSL) defined beyond this preference._
+:::
+
+::: {.column width="50%"}
+<!-- Placeholder for ANOVA output if it can be dynamically injected, otherwise user refers to console -->
+
+_Please refer to the output of the preceding R cell for the full ANOVA table and specific Pr(>F) values._
+:::
+::::
